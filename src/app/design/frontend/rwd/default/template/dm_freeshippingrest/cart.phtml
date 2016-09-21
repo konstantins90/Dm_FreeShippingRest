@@ -1,0 +1,5 @@
+<?php if($this->getRest() > 0):?>
+	<div id="dm-freeshipping-rest" style="padding: 10px; background-color: #f4f4f4; border: 1px solid #cccccc; margin-bottom: 15px;">
+		<?php echo $this->__('Gratis Versand ab %s - Bestellen Sie für weitere %s bis zur kostenlosen Lieferung innerhalb von Deutschland!', Mage::helper('checkout')->formatPrice($this->getMin()), Mage::helper('checkout')->formatPrice($this->getRest()));?>
+	</div>
+<?php endif;?>

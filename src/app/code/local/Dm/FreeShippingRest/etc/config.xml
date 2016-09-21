@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dm_FreeShippingRest>
+            <version>0.1.0</version>
+        </Dm_FreeShippingRest>
+    </modules>
+    <global>
+        <blocks>
+            <dm_freeshippingrest>
+                <class>Dm_FreeShippingRest_Block</class>
+            </dm_freeshippingrest>
+        </blocks>
+        <models>
+            <dm_freeshippingrest>
+                <class>Dm_FreeShippingRest_Model</class>
+            </dm_freeshippingrest>
+        </models>
+        <helpers>
+            <dm_freeshippingrest>
+                <class>Dm_FreeShippingRest_Helper</class>
+            </dm_freeshippingrest>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <dm_freeshippingrest>
+                    <file>dm_freeshippingrest.xml</file>
+                </dm_freeshippingrest>
+            </updates>
+        </layout>
+    </frontend>
+</config>

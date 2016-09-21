@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<checkout_cart_index translate="label">
+        <reference name="checkout.cart">
+        	<action method="setCartTemplate"><value>dm_freeshippingrest/checkout/cart.phtml</value></action>
+            <action method="setEmptyTemplate"><value>checkout/cart/noItems.phtml</value></action>
+            <action method="chooseTemplate"/>
+			<block type="dm_freeshippingrest/cart" name="dm.cart" template="dm_freeshippingrest/cart.phtml"/>
+        </reference>
+    </checkout_cart_index>
+</layout>
